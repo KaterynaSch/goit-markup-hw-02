@@ -19,6 +19,7 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -29,12 +30,15 @@ body {
 
   color: var(--iris);
 }
+
 .link {
   text-decoration: none;
 }
+
 .accent {
   color: var(--navyblue);
 }
+
 .sub-accent {
   color: var(--cloud);
 }
@@ -42,6 +46,7 @@ body {
 .list {
   list-style: none;
 }
+
 .nav {
   font-weight: 500;
   font-size: 16px;
@@ -51,13 +56,17 @@ body {
 
   color: var(--navyblue);
 }
+
 .nav:hover,
-.nav:focus :active {
+.nav:focus {
   color: var(--ocean);
 }
 
 .address {
   font-style: normal;
+}
+
+.address-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -67,14 +76,15 @@ body {
   color: var(--slate);
 }
 
-.address-link:hover,
-.address-link:focus :active {
+.address-text:hover,
+.address-text:focus {
   color: var(--ocean);
 }
 
 .hero {
   background-color: var(--grey);
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -111,6 +121,7 @@ body {
 
   color: var(--navyblue);
 }
+
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -119,15 +130,19 @@ body {
 
   color: var(--navyblue);
 }
+
 .team {
   background-color: var(--cloud);
 }
+
 .list-item {
   background-color: var(--white);
 }
+
 .footer {
   background-color: var(--navyblue);
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 56px;
@@ -137,6 +152,7 @@ body {
 
   color: var(--navyblue);
 }
+
 .button-filter {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -150,7 +166,7 @@ body {
 }
 
 .button-filter:hover,
-.button-filter:focus :active {
+.button-filter:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
@@ -160,6 +176,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  color: var(--slate);
 }
 
 .text-color {
